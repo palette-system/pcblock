@@ -4,7 +4,7 @@
 2枚のPCBを重ねてスイッチのピンを固定します。<br>
 
 <br><br>
-<img src="/img/pcblock_v1_lock.png"><br>
+<img src="/img/pcblock_v1_lock.jpg"><br>
 <br><br>
 
 # フットプリント
