@@ -7,6 +7,13 @@
 <img src="/img/pcblock_v1_lock.jpg"><br>
 <br><br>
 
+# 対応スイッチ
+<br>
+
+- chock V2
+
+<br><br>
+
 # フットプリント
 
 <br>
