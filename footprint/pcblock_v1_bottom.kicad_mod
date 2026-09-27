@@ -1,0 +1,126 @@
+(footprint "pcblock_v1_bottom"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
+	(tags "kailh,choc")
+	(property "Reference" "pcblock_v1_bottom"
+		(at 4 3 180)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "bdd31b20-1e61-495e-973a-edd08d790e40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "pcblock_v1_bottom"
+		(at 0 8.255 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed0681a0-1d61-40a6-9873-dd31978fd413")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "588f192e-17f0-401e-9288-222f83f63e27")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbad5bf1-cb07-47bd-a8a0-3c044ba439d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -7 -7)
+		(end 7 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cddc1945-be89-4fb2-a3eb-9bdb211bd910")
+	)
+	(fp_line
+		(start -7 7)
+		(end -7 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c13f755a-5379-47c7-91e6-d16798ae1e83")
+	)
+	(fp_line
+		(start 7 -7)
+		(end 7 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "54a1f163-c1ad-4f6b-ba41-6c8a883d3680")
+	)
+	(fp_line
+		(start 7 7)
+		(end -7 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "105ad7a7-f491-47ca-9a7d-5f54503eab6e")
+	)
+	(pad "" np_thru_hole oval
+		(at -5 3.5)
+		(size 1.2 0.8)
+		(drill oval 1.2 0.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "cdc1a2ea-373e-4ece-bf65-b548c64a2145")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 4.8 4.8)
+		(drill 4.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "059a011c-7d7e-40fd-a74a-397c4f4bfab8")
+	)
+	(pad "" np_thru_hole oval
+		(at 0 5.5)
+		(size 1.2 0.8)
+		(drill oval 1.2 0.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "3fbf8e86-0abf-4b13-accc-605b8e9d1438")
+	)
+	(pad "" np_thru_hole oval
+		(at 5 -5.15)
+		(size 1.2 0.8)
+		(drill oval 1.2 0.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "63756ef2-ee51-44dc-af4e-276271f4f9e8")
+	)
+	(embedded_fonts no)
+)
